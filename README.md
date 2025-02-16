@@ -103,7 +103,6 @@ else:
 ### Creating a User Grouping Key
 ```
 processed_data_group_key = f'User Group with following Attributes: Location: {processed_data_group_key_locale}, Network Type: {processed_data_group_key_ip}, Device Type: {processed_data_group_key_device_type}'
-
 processed_data[processed_data_group_key] += 1
 ```
 * Groups users based on locale, network type, and device type.
